@@ -14,3 +14,8 @@ tour.pop();
 tour.shift();
 tour.splice(2,1);
 console.log(tour);
+
+// 3.checking array membership with "includes"
+
+const books = ["bangla", "english", "math", "peradoxical_sajid"];
+console.log(books.includes("math"));
