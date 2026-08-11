@@ -18,7 +18,13 @@ console.log(tour);
 // 3.checking array membership with "includes"
 
 const books = ["bangla", "english", "math", "peradoxical_sajid"];
-console.log(books.includes("math"));
+// console.log(books.includes("math"));
+if(books.includes("math")){
+    console.log("this is a array eliment :");
+}
+else{
+    console.log("this is not a array eliment :");
+}
 
 // 4. checking if it's an array
 
@@ -33,3 +39,12 @@ if(Array.isArray(lemon)){
 else{
     console.log("This is not array :");
 }
+
+// 5.combining arrays 
+
+
+let boy = ["rakib","shihab"];
+let girl = ["sadia","sumaiya"];
+
+let students = boy.concat("voshrike",girl);
+console.log(students);
