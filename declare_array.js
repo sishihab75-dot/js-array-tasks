@@ -19,3 +19,17 @@ console.log(tour);
 
 const books = ["bangla", "english", "math", "peradoxical_sajid"];
 console.log(books.includes("math"));
+
+// 4. checking if it's an array
+
+var mango = 50;
+const lemon =["deshi","export"];
+let benanna = 7.23;
+// console.log(Array.isArray(benanna));
+
+if(Array.isArray(lemon)){
+    console.log("This is array :");
+}
+else{
+    console.log("This is not array :");
+}
